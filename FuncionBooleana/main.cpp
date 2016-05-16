@@ -2,10 +2,9 @@
 
 using namespace std;
 
-bool palabras(char* pal1, char*pal2)
+bool mayorLongitud(char* pal1, char*pal2)
 {
     int p=0,p1=0;
-
     while(pal1[p]!='\0'){p++;}
     while(pal2[p1]!='\0'){p1++;}
 
@@ -14,7 +13,6 @@ bool palabras(char* pal1, char*pal2)
 
 int main()
 {
-    cout<<palabras("amarillo","rojo")<<endl;
-
+    cout<<mayorLongitud("amarillo","rojo")<<endl;
     return 0;
 }

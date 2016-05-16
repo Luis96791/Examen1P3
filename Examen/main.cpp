@@ -1,14 +1,16 @@
 #include "Student_club.h"
 #include <iostream>
+#include <vector>
 
 
 using namespace std;
 
-Student_club** club = new Student_club*[100];
+vector<Student_club**> club;
+//vector<Student> student;
 
-void nuevoClub(string p,string v,string s,string t,int cont)
+void nuevoClub(string p,string v,string s,string t)
 {
-    club[cont] = new Student_club(&p,&v,&s,&t);
+//    club[cont] = new Student_club(&p,&v,&s,&t);
 }
 
 int main()
@@ -25,7 +27,7 @@ int main()
         switch(opc){
         case 1:
             cont++;
-            nuevoClub("","","","",cont);
+            nuevoClub("","","","");
             break;
         case 2:
             break;

@@ -9,18 +9,17 @@ using namespace std;
 class Student_club
 {
     private:
-        string *presidente, *vicepresidente, *secretario, *tesorero;
+        Student *presidente, *vicepresidente, *secretario, *tesorero;
     public:
-        Student** student;
-        Student_club(string *p, string *v, string *s, string *t);
-        string* getPresidente();
-        string* getVicepresidente();
-        string* getSecretario();
-        string* getTesorero();
-        void setPresidente(string* p);
-        void setVicepresidente(string* v);
-        void setSecretario(string* s);
-        void setTesorero(string* t);
+        Student_club(Student* p, Student* v, Student* s, Student* t);
+        Student* getPresidente();
+        Student* getVicepresidente();
+        Student* getSecretario();
+        Student* getTesorero();
+        void setPresidente(Student* p);
+        void setVicepresidente(Student* v);
+        void setSecretario(Student* s);
+        void setTesorero(Student* t);
         virtual ~Student_club();
 
     protected:

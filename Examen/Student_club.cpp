@@ -1,50 +1,49 @@
 #include "Student_club.h"
 
-Student_club::Student_club(string *p, string *v, string *s, string *t)
+Student_club::Student_club(Student *p, Student *v, Student *s, Student *t)
 {
     p = presidente;
     v = vicepresidente;
     s = secretario;
     t = tesorero;
-    student = new Student*[100];
 }
 
-string* Student_club::getPresidente()
+Student* Student_club::getPresidente()
 {
     return presidente;
 }
 
-string* Student_club::getVicepresidente()
+Student* Student_club::getVicepresidente()
 {
     return vicepresidente;
 }
 
-string* Student_club::getSecretario()
+Student* Student_club::getSecretario()
 {
     return secretario;
 }
 
-string* Student_club::getTesorero()
+Student* Student_club::getTesorero()
 {
     return tesorero;
 }
 
-void Student_club::setPresidente(string* p)
+void Student_club::setPresidente(Student* p)
 {
     presidente = p;
 }
 
-void Student_club::setVicepresidente(string* v)
+void Student_club::setVicepresidente(Student* v)
 {
     vicepresidente = v;
 }
 
-void Student_club::setSecretario(string* s)
+void Student_club::setSecretario(Student* s)
 {
     secretario = s;
 }
 
-void Student_club::setTesorero(string* t)
+void Student_club::setTesorero(Student* t)
 {
     tesorero = t;
 }

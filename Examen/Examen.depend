@@ -24,3 +24,21 @@
 1463352911 c:\users\luis\desktop\examen\student.h
 	<iostream>
 
+1463414915 source:c:\users\user\desktop\examen_p3p1\examen\main.cpp
+	"Student_club.h"
+	<iostream>
+	<vector>
+
+1463415191 c:\users\user\desktop\examen_p3p1\examen\student_club.h
+	<iostream>
+	"Student.h"
+
+1463402497 c:\users\user\desktop\examen_p3p1\examen\student.h
+	<iostream>
+
+1463402497 source:c:\users\user\desktop\examen_p3p1\examen\student.cpp
+	"Student.h"
+
+1463413264 source:c:\users\user\desktop\examen_p3p1\examen\student_club.cpp
+	"Student_club.h"
+
