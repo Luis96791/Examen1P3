@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1463354262 source:c:\users\luis\desktop\examen\main.cpp
+	"Student_club.h"
+	<iostream>
+
+1463353321 source:c:\users\luis\desktop\examen\student_club.cpp
+	"Student_club.h"
+
+1463353343 c:\users\luis\desktop\examen\student_club.h
+	<iostream>
+	"Student.h"
+
+1463351047 source:c:\users\luis\desktop\examen\club.cpp
+	"Club.h"
+
+1463351886 c:\users\luis\desktop\examen\club.h
+	<iostream>
+	<vector>
+	"Student_club.h"
+
+1463353108 source:c:\users\luis\desktop\examen\student.cpp
+	"Student.h"
+
+1463352911 c:\users\luis\desktop\examen\student.h
+	<iostream>
+
