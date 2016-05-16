@@ -1,39 +1,34 @@
 #include "Student.h"
 
-Student::Student(string* n,int* e,string* c,string* s)
+Student::Student(string n,int e,string c)
 {
     nombre = n;
     edad = e;
-    carrera = c;
-    sexo = s;
+    cargo = c;
 }
 
-string* Student::getNombre(){
+string Student::getNombre(){
     return nombre;
 }
 
-int* Student::getEdad(){
+int Student::getEdad(){
     return edad;
 }
 
-string* Student::getCarrera(){
-    return carrera;
+string Student::getCargo(){
+    return cargo;
 }
 
-string* Student::getSexo(){
-    return sexo;
-}
-
-void Student::setNombre(string* n){
+void Student::setNombre(string n){
     nombre = n;
 }
 
-void Student::setEdad(int* e){
+void Student::setEdad(int e){
     edad = e;
 }
 
-void Student::setCarrera(string* c){
-    carrera = c;
+void Student::setCargo(string c){
+    cargo = c;
 }
 
 Student::~Student()

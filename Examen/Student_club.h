@@ -9,13 +9,16 @@ using namespace std;
 class Student_club
 {
     private:
+        string nombre_club;
         Student *presidente, *vicepresidente, *secretario, *tesorero;
     public:
-        Student_club(Student* p, Student* v, Student* s, Student* t);
+        Student_club(string n, Student* p, Student* v, Student* s, Student* t);
+        string getNombre();
         Student* getPresidente();
         Student* getVicepresidente();
         Student* getSecretario();
         Student* getTesorero();
+        void setNombre(string n);
         void setPresidente(Student* p);
         void setVicepresidente(Student* v);
         void setSecretario(Student* s);

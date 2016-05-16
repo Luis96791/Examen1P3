@@ -8,17 +8,17 @@ using namespace std;
 class Student
 {
     private:
-        int* edad;
-        string *nombre,*carrera,*sexo;
-        public:
-        Student(string* n,int* e,string* c,string* s);
-        string* getNombre();
-        int* getEdad();
-        string* getCarrera();
-        string* getSexo();
-        void setNombre(string* n);
-        void setEdad(int* e);
-        void setCarrera(string* c);
+        int edad;
+        string nombre,cargo;
+    public:
+        Student(string n,int e,string c);
+        string getNombre();
+        int getEdad();
+        string getCargo();
+        string getSexo();
+        void setNombre(string n);
+        void setEdad(int e);
+        void setCargo(string c);
         virtual ~Student();
 
     protected:

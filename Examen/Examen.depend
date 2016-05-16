@@ -24,7 +24,7 @@
 1463352911 c:\users\luis\desktop\examen\student.h
 	<iostream>
 
-1463414915 source:c:\users\user\desktop\examen_p3p1\examen\main.cpp
+1463421071 source:c:\users\user\desktop\examen_p3p1\examen\main.cpp
 	"Student_club.h"
 	<iostream>
 	<vector>
@@ -33,12 +33,12 @@
 	<iostream>
 	"Student.h"
 
-1463402497 c:\users\user\desktop\examen_p3p1\examen\student.h
+1463420221 c:\users\user\desktop\examen_p3p1\examen\student.h
 	<iostream>
 
-1463402497 source:c:\users\user\desktop\examen_p3p1\examen\student.cpp
+1463420262 source:c:\users\user\desktop\examen_p3p1\examen\student.cpp
 	"Student.h"
 
-1463413264 source:c:\users\user\desktop\examen_p3p1\examen\student_club.cpp
+1463415256 source:c:\users\user\desktop\examen_p3p1\examen\student_club.cpp
 	"Student_club.h"
 
